@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django-related
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# If you're using .env for secrets
+.env
+
+# VSCode / PyCharm / IDE configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# pip environment files
+pip-selfcheck.json
+
+# Coverage / test / pytest
+htmlcov/
+.tox/
+.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Migrations (optional: keep only when you generate them intentionally)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# Uncomment the next line to ignore all migration files except __init__.py:
+# **/migrations/[!__init__]*.py
+
+# SSL certificates for local dev
+*.pem
+*.crt
+*.key
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# Django Extensions (shell_plus notebooks etc.)
+*.sqlite3

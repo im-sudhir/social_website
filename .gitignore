@@ -60,3 +60,4 @@ coverage.xml
 
 # Django Extensions (shell_plus notebooks etc.)
 *.sqlite3
+db.sqlite3
